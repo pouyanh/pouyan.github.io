@@ -1,4 +1,4 @@
-# Roya
-This is my personal tech/non-tech diaries source code hosted on [https://pouyanh.github.io][roya]
+# Release Signal
+This is my personal tech/non-tech diaries source code hosted on [https://pouyanh.github.io][release-signal]
 
-[roya]: https://pouyanh.github.io
+[release-signal]: https://pouyanh.github.io

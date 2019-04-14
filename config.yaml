@@ -1,3 +1,10 @@
-title: زمانی برای رقصیدن با گرگ‌ها
-theme: aerial
 baseURL: https://pouyanh.github.io/
+theme: airspace
+
+languages:
+  fa:
+    weight: 1
+    title: سیگنال رهایی
+  en:
+    weight: 2
+    title: Release Signal

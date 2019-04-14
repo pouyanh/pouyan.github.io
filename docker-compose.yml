@@ -1,6 +1,13 @@
 version: '2.3'
 services:
-  roya:
-    image: registry.gitlab.com/pouyanh/roya:latest
+  resig:
+    image: registry.gitlab.com/pouyanh/resig:latest
+    command:
+      - "server"
+      - "-D"
+      - "--bind=0.0.0.0"
+      - "--port=80"
+      - "--appendPort=false"
+      - "--baseURL=http://resig.pouyanh.jst/"
     environment:
-      HOSTNAME: roya.pouyanh.jst
+      HOSTNAME: resig.pouyanh.jst

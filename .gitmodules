@@ -8,3 +8,9 @@
 	path = public
 	url = git@github.com:pouyanh/pouyanh.github.io.git
 	branch = master
+[submodule "themes/introduction"]
+	path = themes/introduction
+	url = git@github.com:victoriadotdev/hugo-theme-introduction.git
+[submodule "themes/airspace"]
+	path = themes/airspace
+	url = git@github.com:themefisher/airspace-hugo.git
