@@ -1,7 +1,0 @@
-.DS_Store
-.idea/
-*.iml
-
-.persist
-
-docker-compose.override.yml

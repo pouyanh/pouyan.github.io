@@ -1,6 +1,0 @@
-[submodule "themes/hugo-dusk"]
-	path = themes/hugo-dusk
-	url = git@github.com:gyorb/hugo-dusk.git
-[submodule "themes/aerial"]
-	path = themes/aerial
-	url = git@github.com:sethmacleod/aerial.git
