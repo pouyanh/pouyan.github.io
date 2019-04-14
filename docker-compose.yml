@@ -1,0 +1,6 @@
+version: '2.3'
+services:
+  roya:
+    image: registry.gitlab.com/pouyanh/roya:latest
+    environment:
+      HOSTNAME: roya.pouyanh.jst

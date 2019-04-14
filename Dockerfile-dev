@@ -1,0 +1,8 @@
+FROM golang:latest
+
+MAINTAINER Pouyan Heyratpour <pouyan@janstun.com>
+
+RUN go get -v github.com/gohugoio/hugo
+
+ENTRYPOINT $GOPATH/bin/hugo
+CMD ["server", "-D"]
