@@ -4,3 +4,7 @@
 [submodule "themes/aerial"]
 	path = themes/aerial
 	url = git@github.com:sethmacleod/aerial.git
+[submodule "public"]
+	path = public
+	url = git@github.com:pouyanh/pouyanh.github.io.git
+	branch = master
