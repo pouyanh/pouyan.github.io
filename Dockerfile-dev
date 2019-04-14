@@ -5,4 +5,4 @@ MAINTAINER Pouyan Heyratpour <pouyan@janstun.com>
 RUN go get -v github.com/gohugoio/hugo
 
 ENTRYPOINT $GOPATH/bin/hugo
-CMD ["server", "-D"]
+CMD ["server", "-D", "--bind", "0.0.0.0", "-p", "80"]
