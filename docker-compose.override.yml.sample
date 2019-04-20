@@ -1,10 +1,17 @@
 version: '2.3'
 services:
-  roya:
+  resig:
     build:
       context: .
       dockerfile: Dockerfile-dev
     image: registry.pouyanh.me/library/hugo:develop
-    working_dir: /roya
+    working_dir: /resig
     volumes:
-    - .:/roya
+    - .:/resig
+
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.22.26.128/27
+
