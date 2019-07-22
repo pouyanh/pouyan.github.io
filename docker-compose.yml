@@ -1,13 +1,13 @@
 version: '2.3'
 services:
-  resig:
-    image: registry.gitlab.com/pouyanh/resig:latest
+  iridescent:
+    image: registry.gitlab.com/pouyanh/iridescent:latest
     command:
       - "server"
       - "-D"
       - "--bind=0.0.0.0"
       - "--port=80"
       - "--appendPort=false"
-      - "--baseURL=http://resig.pouyanh.jst/"
+      - "--baseURL=http://iridescent.pouyanh.jst/"
     environment:
-      HOSTNAME: resig.pouyanh.jst
+      HOSTNAME: iridescent.pouyanh.jst

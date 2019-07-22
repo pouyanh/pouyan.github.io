@@ -1,13 +1,13 @@
 version: '2.3'
 services:
-  resig:
+  iridescent:
     build:
       context: .
       dockerfile: Dockerfile-dev
     image: registry.pouyanh.me/library/hugo:develop
-    working_dir: /resig
+    working_dir: /iridescent
     volumes:
-    - .:/resig
+    - .:/iridescent
 
 networks:
   default:
