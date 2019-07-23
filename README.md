@@ -1,4 +1,4 @@
-# Release Signal
-This is my personal tech/non-tech diaries source code hosted on [https://pouyanh.github.io][release-signal]
+# Iridescent
+This is my personal tech/non-tech diaries source code hosted on [https://pouyanh.github.io][iridescent]
 
-[release-signal]: https://pouyanh.github.io
+[iridescent]: https://pouyanh.github.io

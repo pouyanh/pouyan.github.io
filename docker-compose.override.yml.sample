@@ -4,6 +4,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-dev
+      args:
+        HTTP_PROXY: http://172.22.26.1:8118
+        HTTPS_PROXY: http://172.22.26.1:8118
+        NO_PROXY: .jst
     image: registry.pouyanh.me/library/hugo:develop
     working_dir: /iridescent
     volumes:
